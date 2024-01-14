@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>직장인 미팅앱</title>
+    <link rel="stylesheet" href="css/plugin/reset.css">
+    <link rel="stylesheet" href="css/plugin/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/easing.js"></script>
+
+</head>
+<body>
+<!--
+
+
+<button class="startPoint">
+    <img src="img/top_btn.png" alt="">
+</button>
+
+-->
+
+<section id="container">
+
+
+    <section id="section01">
+
+	
+	<div class="title"><img src="img2/section1/title_meetingapp.png" alt=""></div>
+         <div class="title1"><img src="img2/section1/title_meetingeul.png" alt=""></div>
+         <div class="title2"><img src="img2/section1/title_chatajeo.png" alt=""></div>
+	 <div class="title3"><img src="img2/section1/title_cartingsticker.png" alt=""></div>
+	 <div class="title4"><img src="img2/section1/title_heart.png" alt=""></div>
+         <div class="title5"><img src="img2/section1/title_ribbon.png" alt=""></div>
+
+
+        <div class="cloud"><img src="img2/section1/cloud.png" alt=""></div>
+        <div class="cloud1"><img src="img2/section1/cloud_left.png" alt=""></div>
+        <div class="cloud2"><img src="img2/section1/cloud_right.png" alt=""></div>
+        <div class="cloud3"><img src="img2/section1/door.png" alt=""></div>
+
+
+        <div class="vendor"><img src="img2/section1/vendor.png" alt=""></div>
+        <div class="balloonhouse"><img src="img2/section1/balloonhouse.png" alt=""></div>
+        <div class="pinkhouse"><img src="img2/section1/pinkhouse.png" alt=""></div>
+
+
+        <div class="leftbg"><img src="img2/section1/bg_parasuit.png" alt=""></div>
+         <div class="leftbg1"><img src="img2/section1/bg_helicopter.png" alt=""></div>
+         <div class="leftbg2"><img src="img2/section1/flyballoon1.png" alt=""></div>
+         <div class="leftbg3"><img src="img2/section1/bg_flyballoon2.png" alt=""></div>
+         <div class="leftbg4"><img src="img2/section1/bg_sparkle1.png" alt=""></div>
+
+        <div class="rightbg"><img src="img2/section1/bg_airballoon1.png" alt=""></div>
+         <div class="rightbg1"><img src="img2/section1/bg_airballoon2.png" alt=""></div>
+         <div class="rightbg2"><img src="img2/section1/bg_airballoon3.png" alt=""></div>
+         <div class="rightbg3"><img src="img2/section1/bg_sparkle2.png" alt=""></div>
+
+          <div class="runbunny"><img src="img2/section1/runbunny.png" alt=""></div>
+
+          <div class="bubble"><img src="img2/section1/bubblebunny.png" alt=""></div>
+           <div class="bubble2"><img src="img2/section1/bg_bubble1.png" alt=""></div>
+           <div class="bubble3"><img src="img2/section1/bg_bubble2.png" alt=""></div>
+           <div class="bubble4"><img src="img2/section1/bg_bubble3.png" alt=""></div>
+
+
+        <div class="bg"><img src="img2/section1/bg_car.png" alt=""></div>
+         <div class="bg1"><img src="img2/section1/bg_frontrow.png" alt=""></div>
+         <div class="sitrabbit"><img src="img2/section1/bench.png" alt=""></div>
+
+         <div class="horse"><img src="img2/section1/horse.png" alt=""></div>
+         <div class="horse1"><img src="img2/section1/horse2.png" alt=""></div>
+
+         <div class="flag"><img src="img2/section1/flag.png" alt=""></div>
+
+         <div class="fountain"><img src="img2/section1/fountain.png" alt=""></div>
+         <div class="fountain1"><img src="img2/section1/fountain1.png" alt=""></div>
+
+
+         <div class="phonecall"><img src="img2/section1/phonecall.png" alt=""></div>
+
+         <div class="photo"><img src="img2/section1/photo.png" alt=""></div>
+
+         <div class="lantern"><img src="img2/section1/lantern1.png" alt=""></div>
+         <div class="lantern1"><img src="img2/section1/lantern2.png" alt=""></div>
+
+         <div class="minicar"><img src="img2/section1/minicar.png" alt=""></div>
+
+         <div class="blueballoon"><img src="img2/section1/blueballoon_left.png" alt=""></div>
+         <div class="blueballoon1"><img src="img2/section1/blueballoon_right.png" alt=""></div>
+
+         <div class="pinkballoon"><img src="img2/section1/pinkballoon_left.png" alt=""></div>
+         <div class="pinkballoon1"><img src="img2/section1/pinkballoon_right.png" alt=""></div>
+
+         <div class="icecreamballoon"><img src="img2/section1/icecream_left.png" alt=""></div>
+         <div class="icecreamballoon1"><img src="img2/section1/icecream_right.png" alt=""></div>
+
+         <div class="frontrow"><img src="img2/section1/redstore.png" alt=""></div>
+         <div class="frontrow1"><img src="img2/section1/write.png" alt=""></div>
+         <div class="frontrow2"><img src="img2/section1/redsit.png" alt=""></div>
+         <div class="frontrow3"><img src="img2/section1/frontrowrabbit.png" alt=""></div>
+         <div class="frontrow4"><img src="img2/section1/benchrabbit.png" alt=""></div>
+
+         <div class="second"><img src="img2/section1/tablerabbit.png" alt=""></div>
+         <div class="second1"><img src="img2/section1/headphone.png" alt=""></div>
+
+         <div class="third"><img src="img2/section1/fountain rabbit.png" alt=""></div>
+         <div class="third1"><img src="img2/section1/wave.png" alt=""></div>
+         <div class="third2"><img src="img2/section1/wave1.png" alt=""></div>
+         <div class="third3"><img src="img2/section1/picnic.png" alt=""></div>
+
+         <div class="corridor"><img src="img2/section1/corridor.png" alt=""></div>
+         <div class="corridor1"><img src="img2/section1/corridor1.png" alt=""></div>
+         <div class="corridor2"><img src="img2/section1/lights.png" alt=""></div>
+
+         <div class="light"><img src="img2/section1/light1.png" alt=""></div>
+         <div class="light1"><img src="img2/section1/light2.png" alt=""></div>
+         <div class="light2"><img src="img2/section1/light3.png" alt=""></div>
+         <div class="light3"><img src="img2/section1/light4.png" alt=""></div>
+
+          <div class="selfie"><img src="img2/section1/selfie.png" alt=""></div>
+          <div class="heartrabbit"><img src="img2/section1/heartrabbit.png" alt=""></div>
+          <div class="station"><img src="img2/section1/stationrabbit.png" alt=""></div>
+
+         <div class="bg2"><img src="img2/section1/bg_box.png" alt=""></div>
+         <div class="bg3"><img src="img2/section1/bg_bell.png" alt=""></div>
+         <div class="bg4"><img src="img2/section1/bg_heart.png" alt=""></div>
+         <div class="bg6"><img src="img2/section1/bg_letter.png" alt=""></div>
+
+
+         <div class="dotbg"><img src="img2/section1/bg_dot1.png" alt=""></div>
+         <div class="dotbg1"><img src="img2/section1/bg_dot2.png" alt=""></div>
+         <div class="dotbg2"><img src="img2/section1/bg_dot3.png" alt=""></div>
+
+
+
+
+
+    </section>
+
+
+    <section id="section02">
+
+   <div class="marquee">
+        <ul class="marquee-content">
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape1.png" alt="tape1"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape2.png" alt="tape2"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape3.png" alt="tape3"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape4.png" alt="tape4"></li>         
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape1.png" alt="tape5"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape2.png" alt="tape6"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape3.png" alt="tape7"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape4.png" alt="tape8"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape1.png" alt="tape9"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape2.png" alt="tape10"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape3.png" alt="tape11"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape4.png" alt="tape12"></li>            
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape1.png" alt="tape13"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape2.png" alt="tape14"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape3.png" alt="tape15"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape4.png" alt="tape16"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape1.png" alt="tape17"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape2.png" alt="tape18"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape3.png" alt="tape19"></li>
+            <li class="marquee-item"><img class="marquee-image" src="img2/section2/testtape4.png" alt="tape20"></li>
+        </ul>
+    </div>
+    </section>
+
+    <section id="section03">
+
+       <div class="worm1"><img src="img2/section3/worm1.png" alt=""></div>
+       <div class="worm2"><img src="img2/section3/worm2.png" alt=""></div>
+       <div class="flower1"><img src="img2/section3/flower1.png" alt=""></div>
+       <div class="s3title"><img src="img2/section3/overview.png" alt=""></div>
+
+       <div class="s3overview"><img src="img2/section3/o.png" alt=""></div>
+       <div class="s3overview1"><img src="img2/section3/ver.png" alt=""></div>
+       <div class="s3overview2"><img src="img2/section3/view.png" alt=""></div>
+
+       <div class="s3title2"><img src="img2/section3/meetingsticker.png" alt=""></div>    
+       <div class="s3title3"><img src="img2/section3/pinkspark.png" alt=""></div>   
+       <div class="s3title4"><img src="img2/section3/littletitle.png" alt=""></div>    
+
+       <div class="s3text"><img src="img2/section3/s3text.png" alt=""></div>   
+
+       <div class="s3img"><img src="img2/section3/map.png" alt=""></div>   
+       <div class="s3img1"><img src="img2/section3/phone.png" alt=""></div>   
+       <div class="s3img2"><img src="img2/section3/bunnies.png" alt=""></div>   
+       <div class="s3img3"><img src="img2/section3/pillow.png" alt=""></div>   
+       <div class="s3img4"><img src="img2/section3/sitbunny.png" alt=""></div>   
+       <div class="s3img5"><img src="img2/section3/sitbunny2.png" alt=""></div>  
+
+       <div class="pin"><img src="img2/section3/pin.png" alt=""></div>  
+
+       <div class="keyword"><img src="img2/section3/Keyword.png" alt=""></div>  
+       <div class="keyword1"><img src="img2/section3/s2_text2.png" alt=""></div> 
+       <div class="keyword2"><img src="img2/section3/box1.png" alt=""></div> 
+       <div class="keyword3"><img src="img2/section3/box.png" alt=""></div> 
+       <div class="keyword4"><img src="img2/section3/box2.png" alt=""></div> 
+
+       <div class="s3bunny"><img src="img2/section3/layingbunny.png" alt=""></div> 
+       <div class="s3bunny1"><img src="img2/section3/strawbunny.png" alt=""></div> 
+       <div class="s3bunny2"><img src="img2/section3/heart2.png" alt=""></div> 
+
+       <div class="s3cloud"><img src="img2/section3/s3cloud.png" alt=""></div> 
+       <div class="s3cloud1"><img src="img2/section3/s3cloud1.png" alt=""></div> 
+       <div class="s3cloud2"><img src="img2/section3/s3cloud2.png" alt=""></div> 
+       <div class="s3cloud3"><img src="img2/section3/s3whitespark.png" alt=""></div> 
+       <div class="s3cloud4"><img src="img2/section3/s3yellowspark.png" alt=""></div> 
+
+      <div class="s3sticker"><img src="img2/section3/s3sticker.png" alt=""></div> 
+       <div class="s3sticker1"><img src="img2/section3/s3whitespark1.png" alt=""></div> 
+       <div class="s3sticker2"><img src="img2/section3/rainbow.png" alt=""></div>
+
+
+      <div class="s3bigdot"><img src="img2/section3/s3bigdot.png" alt=""></div> 
+       <div class="s3bigdot1"><img src="img2/section3/s3bigdot1.png" alt=""></div> 
+       <div class="s3bigdot2"><img src="img2/section3/s3bigdot2.png" alt=""></div>
+
+      <div class="s3smalldot"><img src="img2/section3/s3smalldot.png" alt=""></div> 
+       <div class="s3smalldot1"><img src="img2/section3/s3smalldot1.png" alt=""></div> 
+       <div class="s3smalldot2"><img src="img2/section3/s3smalldot2.png" alt=""></div>
+
+
+    </section>
+
+    <section id="section04">
+       
+       <div class="s4flower"><img src="img2/section4/s4flower.png" alt=""></div>
+       <div class="s4flower1"><img src="img2/section4/s4arrow.png" alt=""></div>
+
+       <div class="s4sticker"><img src="img2/section4/s4sticker.png" alt=""></div>
+       <div class="s4sticker1"><img src="img2/section4/rainbowstar.png" alt=""></div>
+
+       <div class="s4note"><img src="img2/section4/note.png" alt=""></div>
+       <div class="s4note1"><img src="img2/section4/note1.png" alt=""></div>
+       <div class="s4note2"><img src="img2/section4/note2.png" alt=""></div>
+
+       <div class="s4title"><img src="img2/section4/s4title.png" alt=""></div>
+       <div class="s4title1"><img src="img2/section4/s4title1.png" alt=""></div>
+       <div class="s4title2"><img src="img2/section4/s4title2.png" alt=""></div>
+
+       <div class="s4star"><img src="img2/section4/s4star.png" alt=""></div>
+
+       <div class="s4content"><img src="img2/section4/s4content.png" alt=""></div>
+       <div class="s4content1"><img src="img2/section4/s4content1.png" alt=""></div>
+       <div class="s4content2"><img src="img2/section4/s4content2.png" alt=""></div>
+
+       <div class="s4sparkle"><img src="img2/section4/s4spark.png" alt=""></div>
+
+       <div class="s4stick"><img src="img2/section4/s4datingapp.png" alt=""></div>
+       <div class="s4stick1"><img src="img2/section4/s4starsticker.png" alt=""></div>
+       <div class="s4stick2"><img src="img2/section4/name.png" alt=""></div>
+       <div class="s4stick3"><img src="img2/section4/s4heart.png" alt=""></div>
+       <div class="s4stick4"><img src="img2/section4/s4pickup.png" alt=""></div>
+
+       <div class="s4etc"><img src="img2/section4/underline.png" alt=""></div>
+       <div class="s4etc1"><img src="img2/section4/underline1.png" alt=""></div>
+       <div class="s4etc2"><img src="img2/section4/s4circle.png" alt=""></div>
+       <div class="s4etc3"><img src="img2/section4/s4undeline2.png" alt=""></div>       
+
+
+       <div class="s4text"><img src="img2/section4/s4text.png" alt=""></div>
+       <div class="s4text1"><img src="img2/section4/s4text1.png" alt=""></div>
+       <div class="s4text2"><img src="img2/section4/s4text2.png" alt=""></div>
+       <div class="s4text3"><img src="img2/section4/s4checkbox.png" alt=""></div>
+
+   </section>
+
+<section id="section05">   
+
+       <div class="s5sticker"><img src="img2/section5/HAND STICKER.png" alt=""></div>
+       <div class="s5sticker1"><img src="img2/section5/fingers.png" alt=""></div>
+       <div class="s5sticker2"><img src="img2/section5/zigzag.png" alt=""></div>
+       
+
+       <div class="s5title"><img src="img2/section5/s5title.png" alt=""></div>
+       <div class="s5title1"><img src="img2/section5/s5title1.png" alt=""></div>
+       <div class="s5title2"><img src="img2/section5/s5title2.png" alt=""></div>
+
+       <div class="s5right"><img src="img2/section5/right.png" alt=""></div>
+       <div class="s5right1"><img src="img2/section5/right1.png" alt=""></div>
+       <div class="s5right2"><img src="img2/section5/right2.png" alt=""></div>
+       <div class="s5right3"><img src="img2/section5/right3.png" alt=""></div>
+
+       <div class="s5left"><img src="img2/section5/left.png" alt=""></div>
+       <div class="s5left1"><img src="img2/section5/left1.png" alt=""></div>
+       <div class="s5left2"><img src="img2/section5/left2.png" alt=""></div>
+       <div class="s5left3"><img src="img2/section5/left3.png" alt=""></div>
+       <div class="s5left4"><img src="img2/section5/zigzag2.png" alt=""></div>
+
+       <div class="s5rabbit"><img src="img2/section5/rabbit.png" alt=""></div>
+       <div class="s5rabbit1"><img src="img2/section5/rabbit1.png" alt=""></div>
+
+       <div class="s5up"><img src="img2/section5/s5text.png" alt=""></div>
+       <div class="s5up1"><img src="img2/section5/s5text1.png" alt=""></div>
+       <div class="s5up2"><img src="img2/section5/s5text2.png" alt=""></div>
+       <div class="s5up3"><img src="img2/section5/s5line.png" alt=""></div>
+       <div class="s5up4"><img src="img2/section5/s5circletext.png" alt=""></div>
+       <div class="s5up5"><img src="img2/section5/s5element.png" alt=""></div>
+       <div class="s5up6"><img src="img2/section5/s5element1.png" alt=""></div>
+       <div class="s5up7"><img src="img2/section5/s5element2.png" alt=""></div>
+
+       <div class="s5upgraph"><img src="img2/section5/s5graph.png" alt=""></div>
+       <div class="s5upgraph1"><img src="img2/section5/s5graph1.png" alt=""></div>
+       <div class="s5upgraph2"><img src="img2/section5/s5graph2.png" alt=""></div>
+       <div class="s5upgraph3"><img src="img2/section5/s5graph3.png" alt=""></div>
+
+       <div class="s5down"><img src="img2/section5/s5down.png" alt=""></div>
+       <div class="s5down1"><img src="img2/section5/s5down1.png" alt=""></div>
+       <div class="s5down2"><img src="img2/section5/s5down2.png" alt=""></div>
+       <div class="s5down3"><img src="img2/section5/s5downtext.png" alt=""></div>
+
+       <div class="s5downele"><img src="img2/section5/s5downele.png" alt=""></div>
+       <div class="s5downele1"><img src="img2/section5/s5downele1.png" alt=""></div>
+       <div class="s5downele2"><img src="img2/section5/s5downele2.png" alt=""></div>
+       <div class="s5downele3"><img src="img2/section5/s5downele3.png" alt=""></div>
+       <div class="s5downele4"><img src="img2/section5/s5downele4.png" alt=""></div>
+       <div class="s5downele5"><img src="img2/section5/s5downele5.png" alt=""></div>
+       <div class="s5downele6"><img src="img2/section5/s5downele6.png" alt=""></div>
+       <div class="s5downele7"><img src="img2/section5/s5downele7.png" alt=""></div>
+
+       <div class="s5downgraph"><img src="img2/section5/s5downgraph.png" alt=""></div>
+       <div class="s5downgraph1"><img src="img2/section5/s5downgraph1.png" alt=""></div>
+       <div class="s5downgraph2"><img src="img2/section5/s5downgraph2.png" alt=""></div>
+       <div class="s5downgraph3"><img src="img2/section5/s5downgraph3.png" alt=""></div>
+       <div class="s5downgraph4"><img src="img2/section5/s5downgraph4.png" alt=""></div>
+       <div class="s5downgraph5"><img src="img2/section5/s5downgraph5.png" alt=""></div>
+       <div class="s5downgraph6"><img src="img2/section5/s5downgraph6.png" alt=""></div>
+       <div class="s5downgraph7"><img src="img2/section5/s5downgraph7.png" alt=""></div>
+
+       <div class="s5sticker3"><img src="img2/section5/s5carting.png" alt=""></div>
+       <div class="s5sticker4"><img src="img2/section5/desk reasearch.png" alt=""></div>
+       <div class="s5sticker5"><img src="img2/section5/desk reasearch 1.png" alt=""></div>
+
+       <div class="s5bg"><img src="img2/section5/s5star 2.png" alt=""></div>
+       <div class="s5bg1"><img src="img2/section5/s5star 4.png" alt=""></div>
+       <div class="s5bg2"><img src="img2/section5/s5star 5.png" alt=""></div>
+       <div class="s5bg3"><img src="img2/section5/s5star 6.png" alt=""></div>
+       <div class="s5bg4"><img src="img2/section5/s5star 7.png" alt=""></div>
+
+
+</section>
+
+
+<section id="section06">   
+
+    <div class="s6tape"><img src="img2/section6/s6tape1.png" alt=""></div>
+ <div class="s6tape1"> <div class="s6marquee-item"><img src="img2/section6/s6tapetext1.png" alt=""> </div></div>
+    <div class="s6tape2"><img src="img2/section6/s6tape.png" alt=""></div>
+ <div class="s6tape3"> <div class="s6marquee-item1"><img src="img2/section6/s6tapetext.png" alt=""></div></div>
+
+    <div class="s6title"><img src="img2/section6/s6title.png" alt=""></div>
+    <div class="s6title2"><img src="img2/section6/s6title2.png" alt=""></div>    
+    <div class="s6title1"><img src="img2/section6/s6title1.png" alt=""></div>
+    <div class="s6title3"><img src="img2/section6/s6title3.png" alt=""></div>        
+    <div class="s6title4"><img src="img2/section6/s6title4.png" alt=""></div>
+    <div class="s6title5"><img src="img2/section6/s6title5.png" alt=""></div>  
+
+    <div class="s6persona"><img src="img2/section6/s6persona.png" alt=""></div>
+    <div class="s6persona1"><img src="img2/section6/s6persona1.png" alt=""></div>
+    <div class="s6persona2"><img src="img2/section6/s6persona2.png" alt=""></div>
+
+    <div class="s6doll"><img src="img2/section6/s6doll.png" alt=""></div>
+    <div class="s6doll1"><img src="img2/section6/s6doll1.png" alt=""></div>
+    <div class="s6doll2"><img src="img2/section6/s6doll2.png" alt=""></div>
+    <div class="s6doll3"><img src="img2/section6/s6doll3.png" alt=""></div>
+    <div class="s6doll4"><img src="img2/section6/s6doll4.png" alt=""></div>
+    <div class="s6doll5"><img src="img2/section6/s6doll5.png" alt=""></div>
+    <div class="s6doll6"><img src="img2/section6/s6doll6.png" alt=""></div>
+    <div class="s6doll7"><img src="img2/section6/s6doll7.png" alt=""></div>
+    <div class="s6doll8"><img src="img2/section6/s6doll8.png" alt=""></div>
+    <div class="s6doll9"><img src="img2/section6/s6doll9.png" alt=""></div>
+    <div class="s6doll10"><img src="img2/section6/s6doll10.png" alt=""></div>
+    <div class="s6doll11"><img src="img2/section6/s6doll11.png" alt=""></div>
+
+
+    <div class="s6adoll"><img src="img2/section6/s6adoll.png" alt=""></div>
+    <div class="s6adoll1"><img src="img2/section6/s6adoll1.png" alt=""></div>
+    <div class="s6adoll2"><img src="img2/section6/s6adoll2.png" alt=""></div>
+    <div class="s6adoll3"><img src="img2/section6/s6adoll3.png" alt=""></div>
+    <div class="s6adoll4"><img src="img2/section6/s6adoll4.png" alt=""></div>
+    <div class="s6adoll5"><img src="img2/section6/s6adoll5.png" alt=""></div>
+    <div class="s6adoll6"><img src="img2/section6/s6adoll6.png" alt=""></div>
+    <div class="s6adoll7"><img src="img2/section6/s6adoll7.png" alt=""></div>
+    <div class="s6adoll8"><img src="img2/section6/s6adoll8.png" alt=""></div>
+    <div class="s6adoll9"><img src="img2/section6/s6adoll9.png" alt=""></div>
+    <div class="s6adoll10"><img src="img2/section6/s6adoll10.png" alt=""></div>
+    <div class="s6adoll11"><img src="img2/section6/s6adoll11.png" alt=""></div>
+
+
+</section>
+
+
+<section id="section07">   
+
+   <div class="s7tape">
+        <ul class="s7tape-content">
+            <li class="s7tape-item"><img class="s7tape-image" src="img2/section7/s7tape.png" alt="s7tape"></li>
+            <li class="s7tape-item"><img class="s7tape-image" src="img2/section7/s7tape.png" alt="s7tape"></li>
+</ul></div>
+
+   <div class="s7tape1"><img src="img2/section7/s7element.png" alt=""></div>
+   <div class="s7tape2"><img src="img2/section7/s7element1.png" alt=""></div>
+
+   <div class="s7title"><img src="img2/section7/s7title.png" alt=""></div>
+   <div class="s7title1"><img src="img2/section7/s7title1.png" alt=""></div>
+   <div class="s7title2"><img src="img2/section7/s7title2.png" alt=""></div>
+   <div class="s7title3"><img src="img2/section7/s7title3.png" alt=""></div>
+
+   <div class="s7ele"><img src="img2/section7/s7ele.png" alt=""></div>
+   <div class="s7ele1"><img src="img2/section7/s7ele1.png" alt=""></div>
+   <div class="s7ele2"><img src="img2/section7/s7ele2.png" alt=""></div>
+
+   <div class="s7box"><img src="img2/section7/s7box01.png" alt=""></div>
+   <div class="s7box1"><img src="img2/section7/s7box02.png" alt=""></div>
+
+   <div class="s7rabbit1"><img src="img2/section7/s7rabbit1.png" alt=""></div>
+   <div class="s7rabbit2"><img src="img2/section7/s7rabbit2.png" alt=""></div>
+
+   <div class="s7cloud1"><img src="img2/section7/s7cloud1.png" alt=""></div>
+   <div class="s7cloud2"><img src="img2/section7/s7cloud2.png" alt=""></div>
+
+   <div class="s7painpoint"><img src="img2/section7/s7painpoint.png" alt=""></div>
+   <div class="s7painpoint1"><img src="img2/section7/s7painpoint01.png" alt=""></div>
+   <div class="s7painpoint2"><img src="img2/section7/s7painpoint02.png" alt=""></div>
+   <div class="s7painpoint3"><img src="img2/section7/s7painpointtext1.png" alt=""></div>
+   <div class="s7painpoint4"><img src="img2/section7/s7painpointtext2.png" alt=""></div>
+
+   <div class="s7number1"><img src="img2/section7/s7number1.png" alt=""></div>
+   <div class="s7number2"><img src="img2/section7/s7number2.png" alt=""></div>
+
+   <div class="s7smalltitle1"><img src="img2/section7/s7smalltitle01.png" alt=""></div>
+   <div class="s7smalltitle2"><img src="img2/section7/s7smalltitle02.png" alt=""></div>
+   <div class="s7smalltitle"><img src="img2/section7/s7smalltitle.png" alt=""></div>
+
+   <div class="s7tobe"><img src="img2/section7/s7tobe.png" alt=""></div>
+   <div class="s7tobe1"><img src="img2/section7/s7tobe01.png" alt=""></div>
+   <div class="s7tobe2"><img src="img2/section7/s7tobe02.png" alt=""></div>
+   <div class="s7tobe3"><img src="img2/section7/s7tobetext1.png" alt=""></div>
+   <div class="s7tobe4"><img src="img2/section7/s7tobetext2.png" alt=""></div>
+
+   <div class="s7number01"><img src="img2/section7/s7number01.png" alt=""></div>
+   <div class="s7number02"><img src="img2/section7/s7number02.png" alt=""></div>
+
+   <div class="s7sparkle1"><img src="img2/section7/s7sparkle1.png" alt=""></div>
+   <div class="s7sparkle2"><img src="img2/section7/s7sparkle2.png" alt=""></div>
+
+   <div class="s7heart1"><img src="img2/section7/s7heart1.png" alt=""></div>
+   <div class="s7heart2"><img src="img2/section7/s7heart2.png" alt=""></div>
+
+
+
+</section>
+
+    <section id="section08">
+ 
+    <div class="s8bg"><img src="img2/section8/s8bgcloud.png" alt=""></div>
+    <div class="s8bg1"><img src="img2/section8/s8bgsparkle1.png" alt=""></div>
+    <div class="s8bg2"><img src="img2/section8/s8bgsparkle2.png" alt=""></div>
+
+    <div class="s8title"><img src="img2/section8/s8title.png" alt=""></div>
+    <div class="s8title1"><img src="img2/section8/s8flower.png" alt=""></div>
+    <div class="s8title2"><img src="img2/section8/s8hand.png" alt=""></div>
+
+    <div class="s8text"><img src="img2/section8/s8text.png" alt=""></div>
+    <div class="s8text1"><img src="img2/section8/s8text1.png" alt=""></div>
+
+
+    <div class="s8line"><img src="img2/section8/s8line.png" alt=""></div>
+    <div class="s8line1"><img src="img2/section8/s8wireframe.png" alt=""></div>
+    <div class="s8line2"><img src="img2/section8/s8arrow.png" alt=""></div>
+    <div class="s8line3"><img src="img2/section8/s8sparkle1.png" alt=""></div>
+    <div class="s8line4"><img src="img2/section8/s8sparkle2.png" alt=""></div>
+    <div class="s8line5"><img src="img2/section8/s8sparkle3.png" alt=""></div>
+
+    <div class="s8chart"><img src="img2/section8/s8flowchart.png" alt=""></div>
+
+    <div class="s8rabbit"><img src="img2/section8/s8rabbit.png" alt=""></div>
+    <div class="s8rabbit1"><img src="img2/section8/s8cloudrabbit.png" alt=""></div>
+    <div class="s8rabbit2"><img src="img2/section8/s8cloudrabbit1.png" alt=""></div>
+
+    <div class="s8cloud"><img src="img2/section8/s8cloud1.png" alt=""></div>
+    <div class="s8cloud1"><img src="img2/section8/s8cloud2.png" alt=""></div>
+    <div class="s8cloud2"><img src="img2/section8/s8cloud3.png" alt=""></div>
+
+</section>
+
+<section id="section09">
+
+<div class="s9sticker"><img src="img2/section9/s9title3.png" alt=""></div>
+<div class="s9sticker1"><img src="img2/section9/s9bgstar.png" alt=""></div>
+<div class="s9sticker2"><img src="img2/section9/s9arrow.png" alt=""></div>
+<div class="s9sticker3"><img src="img2/section9/s9sticker.png" alt=""></div>
+<div class="s9sticker4"><img src="img2/section9/s9bgsticker.png" alt=""></div>
+<div class="s9sticker5"><img src="img2/section9/s9bgline1.png" alt=""></div>
+<div class="s9sticker6"><img src="img2/section9/s9bgline2.png" alt=""></div>
+
+<div class="s9title"><img src="img2/section9/s9title.png" alt=""></div>
+<div class="s9title1"><img src="img2/section9/s9title1.png" alt=""></div>
+<div class="s9title2"><img src="img2/section9/s9title2.png" alt=""></div>
+
+<div class="s9screen"><img src="img2/section9/s9screen.png" alt=""></div>
+<div class="s9screen1"><img src="img2/section9/s9screen1.png" alt=""></div>
+<div class="s9screen2"><video src="img2/section9/s9screen2.mov" width="410px" autoplay="" muted="" loop=""></video></div>
+<div class="s9screen3"><video src="img2/section9/s9screen3.mov" width="410px" autoplay="" muted="" loop=""></video></div>
+<div class="s9screen4"><img src="img2/section9/s9screen4.png" alt=""></div>
+
+<div class="s9text"><img src="img2/section9/s9text.png" alt=""></div>
+<div class="s9text1"><img src="img2/section9/s9text1.png" alt=""></div>
+<div class="s9text2"><img src="img2/section9/s9text2.png" alt=""></div>
+<div class="s9text3"><img src="img2/section9/s9text3.png" alt=""></div>
+<div class="s9text4"><img src="img2/section9/s9text4.png" alt=""></div>
+<div class="s9text5"><img src="img2/section9/s9text5.png" alt=""></div>
+
+<div class="s9dot"><img src="img2/section9/s9dot.png" alt=""></div>
+
+<div class="s9object"><img src="img2/section9/s9object.png" alt=""></div>
+
+</section>
+
+<section id="section10">
+
+<div class="s10title"><img src="img2/section10/s10title.png" alt=""></div>
+<div class="s10title1"><img src="img2/section10/s10rainbow.png" alt=""></div>
+
+<div class="s10heart"><img src="img2/section10/s10heart1.png" alt=""></div>
+<div class="s10heart1"><img src="img2/section10/s10heart2.png" alt=""></div>
+<div class="s10heart2"><img src="img2/section10/s10heart3.png" alt=""></div>
+
+
+<div class="s10object"><img src="img2/section10/s10object1.png" alt=""></div>
+<div class="s10object1"><img src="img2/section10/s10object.png" alt=""></div>
+<div class="s10object2"><img src="img2/section10/s10object2.png" alt=""></div>
+<div class="s10object3"><img src="img2/section10/s10object3.png" alt=""></div>
+<div class="s10object4"><img src="img2/section10/s10object4.png" alt=""></div>
+
+<div class="s10typo"><img src="img2/section10/s10bgtypo.png" alt=""></div>
+
+<div class="s10flower"><img src="img2/section10/s10bgflower.png" alt=""></div>
+<div class="s10flower1"><img src="img2/section10/s10flower1.png" alt=""></div>
+<div class="s10flower2"><img src="img2/section10/s10flower2.png" alt=""></div>
+<div class="s10flower3"><img src="img2/section10/s10bgflower3.png" alt=""></div>
+
+<div class="s10screen"><img src="img2/section10/s10screen.png" alt=""></div>
+<div class="s10screen1"><img src="img2/section10/s10screen1.png" alt=""></div>
+<div class="s10screen2"><img src="img2/section10/s10screen2.png" alt=""></div>
+<div class="s10screen3"><img src="img2/section10/s10screen3.png" alt=""></div>
+<div class="s10screen4"><img src="img2/section10/s10screen4.png" alt=""></div>
+<div class="s10screen5"><img src="img2/section10/s10screen5.png" alt=""></div>
+<div class="s10screen6"><img src="img2/section10/s10screenpop.png" alt=""></div>
+<div class="s10screenvid"><video src="img2/section10/s10vid1.mov" width="426px" autoplay="" muted="" loop=""></video></div>
+<div class="s10screenvid1"><video src="img2/section10/s10vid2.mov" width="409px" autoplay="" muted="" loop=""></video></div>
+
+
+<div class="s10arrow"><img src="img2/section10/s10arrow.png" alt=""></div>
+<div class="s10arrow1"><img src="img2/section10/s10arrow1.png" alt=""></div>
+
+<div class="s10coin"><img src="img2/section10/s10coin.png" alt=""></div>
+<div class="s10coin1"><img src="img2/section10/s10coin1.png" alt=""></div>
+
+<div class="s10card"><img src="img2/section10/s10card3.png" alt=""></div>
+<div class="s10card1"><img src="img2/section10/s10card2.png" alt=""></div>
+<div class="s10card2"><img src="img2/section10/s10card1.png" alt=""></div>
+
+<div class="s10dot"><img src="img2/section10/s10dot.png" alt=""></div>
+<div class="s10dot1"><img src="img2/section10/s10dot2.png" alt=""></div>
+
+<div class="s10text"><img src="img2/section10/s10text.png" alt=""></div>
+<div class="s10text2"><img src="img2/section10/s10text2.png" alt=""></div>
+<div class="s10text3"><img src="img2/section10/s10text3.png" alt=""></div>
+
+<div class="s10board"><img src="img2/section10/s10board1.png" alt=""></div>
+<div class="s10board1"><img src="img2/section10/s10board.png" alt=""></div>
+<div class="s10board2"><img src="img2/section10/s10sticker.png" alt=""></div>
+<div class="s10board3"><img src="img2/section10/s10sticker1.png" alt=""></div>
+
+<div class="s10rabbit"><img src="img2/section10/s10rabbit2.png" alt=""></div>
+<div class="s10rabbit1"><img src="img2/section10/s10rabbit.png" alt=""></div>
+<div class="s10rabbit2"><img src="img2/section10/s10sparkle.png" alt=""></div>
+<div class="s10rabbit3"><img src="img2/section10/s10rabbit1.png" alt=""></div>
+
+</section>
+
+<section id="section11">
+
+<div class="s11paint"><img src="img2/section11/s11paint.png" alt=""></div>
+<div class="s11text"><img src="img2/section11/s11text.png" alt=""></div>
+<div class="s11mockup"><img src="img2/section11/s11mockup.png" alt=""></div>
+<div class="s11vid"><video src="img2/section11/s11vid.mov" width="410.1px" autoplay="" muted="" loop=""></video></div>
+
+<div class="s11coin"><img src="img2/section11/s11coin.png" alt=""></div>
+<div class="s11block"><img src="img2/section11/s11block.png" alt=""></div>
+
+<div class="s11tube"><img src="img2/section11/s11tube.png" alt=""></div>
+
+<div class="s11flower1"><img src="img2/section11/s10flower1.png" alt=""></div>
+<div class="s11flower3"><img src="img2/section11/s10bgflower3.png" alt=""></div>
+
+
+</section>
+
+
+<section id="section12">
+
+<div class="s12title"><img src="img2/section12/s12title.png" alt=""></div>
+<div class="s12title1"><img src="img2/section12/s12title1.png" alt=""></div>
+
+
+<div class="s12mockup"><img src="img2/section12/s12mockup.png" alt=""></div>
+<div class="s12vid"><video src="img2/section12/s12vid.mov" width="366px" autoplay="" muted="" loop=""></video></div>
+
+<div class="s12text"><img src="img2/section12/s12text.png" alt=""></div>
+<div class="s12text1"><img src="img2/section12/s12text1.png" alt=""></div>
+
+<div class="s12map"><img src="img2/section12/s12map.png" alt=""></div>
+<div class="s12map1"><img src="img2/section12/s12map1.png" alt=""></div>
+<div class="s12map2"><img src="img2/section12/s12map3.png" alt=""></div>
+
+<div class="s12sticker"><img src="img2/section12/s12sticker.png" alt=""></div>
+<div class="s12pin"><img src="img2/section12/s12pin.png" alt=""></div>
+
+<div class="s12icecream"><img src="img2/section12/s12icecream.png" alt=""></div>
+<div class="s12ice"><img src="img2/section12/s12ice.png" alt=""></div>
+<div class="s12ice1"><img src="img2/section12/s12marble.png" alt=""></div>
+
+
+<div class="s12light"><img src="img2/section12/s12light.png" alt=""></div>
+<div class="s12rabbit"><img src="img2/section12/s12rabbit.png" alt=""></div>
+
+
+</section>
+
+<section id="section13">
+
+<div class="s13tape"><img src="img2/section13/s13tape.png" alt=""></div>
+
+<div class="s13line"><img src="img2/section13/s13line1.png" alt=""></div>
+<div class="s13line1"><img src="img2/section13/s13line2.png" alt=""></div>
+
+<div class="s13title"><img src="img2/section13/s13title.png" alt=""></div>
+
+<div class="s13stamp"><img src="img2/section13/s13stamp.png" alt=""></div>
+<div class="s13stamp1"><img src="img2/section13/s13stamp1.png" alt=""></div>
+
+<div class="s13mockup"><img src="img2/section13/s13mockup.png" alt=""></div>
+<div class="s13vid"><video src="img2/section13/s13vid.mov" width="390px" autoplay="" muted="" loop=""></video></div>
+<div class="s13vid1"><video src="img2/section13/s13vid1.mov" width="390px" autoplay="" muted="" loop=""></video></div>
+
+<div class="s13object"><img src="img2/section13/s13object.png" alt=""></div>
+
+
+</section>
+
+<section id="section14">
+
+<div class="s14title"><img src="img2/section14/s14title.png" alt=""></div>
+
+<div class="s14line"><img src="img2/section14/s14line.png" alt=""></div>
+
+<div class="s14sticker"><img src="img2/section14/s14sticker.png" alt=""></div>
+
+<div class="s14rabbit"><img src="img2/section14/s14rabbit.png" alt=""></div>
+<div class="s14mockup"><img src="img2/section14/s14mockup.png" alt=""></div>
+<div class="s14stamp"><img src="img2/section14/s14stamp.png" alt=""></div>
+<div class="s14stamp1"><img src="img2/section14/s14stamp1.png" alt=""></div>
+
+<div class="s14text"><img src="img2/section14/s14text.png" alt=""></div>
+<div class="s14text1"><img src="img2/section14/s14text1.png" alt=""></div>
+<div class="s14carting"><img src="img2/section14/s14carting.png" alt=""></div>
+
+
+</section>
+
+<section id="section15">
+
+<div class="s15line"><img src="img2/section15/s15line.png" alt=""></div>
+<div class="s15line1"><img src="img2/section15/s15rabbit.png" alt=""></div>
+<div class="s15line2"><img src="img2/section15/s15rabbit1.png" alt=""></div>
+<div class="s15folder"><img src="img2/section15/s15folder.png" alt=""></div>
+<div class="s15mockup"><img src="img2/section15/s15mockup1.png" alt=""></div>
+<div class="s15rainbow"><img src="img2/section15/s15rainbow.png" alt=""></div>
+<div class="s15sparkle"><img src="img2/section15/s15sparkle.png" alt=""></div>
+<div class="s15cloud"><img src="img2/section15/s15cloud.png" alt=""></div>
+<div class="s15rabbit"><img src="img2/section15/s15rabbit2.png" alt=""></div>
+<div class="s15typo"><img src="img2/section15/s15typo.png" alt=""></div>
+<div class="s15typo1"><img src="img2/section15/s15typo.png" alt=""></div>
+
+<div class="s15typo2"><img src="img2/section15/s15typo2.png" alt=""></div>
+<div class="s15typo3"><img src="img2/section15/s15typo2.png" alt=""></div>
+<div class="s15film"><img src="img2/section15/s15film.png" alt=""></div>
+
+<div class="s15mockup2"><img src="img2/section15/s15mockup2.png" alt=""></div>
+<div class="s15rabbit1"><img src="img2/section15/s15rabbit3.png" alt=""></div>
+<div class="s15rabbit2"><img src="img2/section15/s15rabbit4.png" alt=""></div>
+<div class="s15rabbit3"><img src="img2/section15/s15rabbit5.png" alt=""></div>
+<div class="s15rabbit4"><img src="img2/section15/s15rabbit6.png" alt=""></div>
+<div class="s15sticker"><img src="img2/section15/s15sticker.png" alt=""></div>
+<div class="s15sticker1"><img src="img2/section15/s15sticker1.png" alt=""></div>
+
+<div class="s15title"><img src="img2/section15/s15title.png" alt=""></div>
+
+<div class="s15cirlce"><img src="img2/section15/s15stamp.png" alt=""></div>
+<div class="s15cirlce1"><img src="img2/section15/s15stamp1.png" alt=""></div>
+
+<div class="s15text"><img src="img2/section15/s15text.png" alt=""></div>
+<div class="s15text1"><img src="img2/section15/s15text1.png" alt=""></div>
+<div class="s15text2"><img src="img2/section15/s15text2.png" alt=""></div>
+
+<div class="s15thankyou"><img src="img2/section15/s15thank.png" alt=""></div>
+<div class="s15thankyou1"><img src="img2/section15/s15thanks.png" alt=""></div>
+<div class="s15thankyou2"><img src="img2/section15/s15thanks1.png" alt=""></div>
+
+<div class="s15smile2"><img src="img2/section15/s15smile1.png" alt=""></div>
+<div class="s15tflower"><img src="img2/section15/s15tflower1.png" alt=""></div>
+<div class="s15tflower1"><img src="img2/section15/s15tflower.png" alt=""></div>
+<div class="s15tflower2"><img src="img2/section15/s15tflower2.png" alt=""></div>
+<div class="s15tflower3"><img src="img2/section15/s15tflower3.png" alt=""></div>
+
+<div class="s15smile1"><img src="img2/section15/s15tsticker.png" alt=""></div>
+<div class="s15smile"><img src="img2/section15/s15smile.png" alt=""></div>
+
+<div class="s15tsparkle"><img src="img2/section15/s15tsparkle.png" alt=""></div>
+
+<div class="s15foot"><img src="img2/section15/s15foot.png" alt=""></div>
+<div class="s15foot1"><img src="img2/section15/s15foot1.png" alt=""></div>
+<div class="s15foot2"><img src="img2/section15/s15carting.png" alt=""></div>
+<div class="s15foot3"><img src="img2/section15/s15thanku.png" alt=""></div>
+
+
+</section>
+
+<script src="js/plugin/gsap.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
