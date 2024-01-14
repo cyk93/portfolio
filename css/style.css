@@ -7923,8 +7923,8 @@ animation: scrolling 20s linear infinite;
     height: 200px;
     opacity:0;
     position: absolute;
-    left: 0px;
-    top: 1176px;
+    left: 1351px;
+    top: 4150px;
 
     transform:translateX(400px);
     transition: all 1s;
